@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .btn {
-  @apply px-4 py-2 bg-blue-900 font-semibold rounded-lg;
+  @apply px-4 py-2 bg-blue-700 font-semibold rounded-lg;
 }
