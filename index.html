@@ -13,5 +13,67 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body class="bg-blue-100">
+    <!------------------header & navbar section -------------->
+    <header class="bg-blue-500 py-3 px-4 relative">
+      <div class="container mx-auto w-3/4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-semibold text-white"
+          ><i class="fa-solid fa-lock mr-3"></i>Secure Area</a
+        >
+        <nav>
+          <!-- hambargar icon -->
+          <button id="mobile_menu" class="text-white flex text-end md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+          <ul
+            id="main_menu"
+            class="absolute bg-blue-500 w-full left-0 top-10 text-center p-4 hidden md:block md:top-0 md:relative md:flex md:space-x-4"
+          >
+            <li class="mb-2 text-white">
+              <a
+                href="#"
+                class="hover:text-blue-900 font-semibold hover:border-b hover:transition-all duration-200"
+                >Home</a
+              >
+            </li>
+            <li class="mb-2 text-white">
+              <a
+                href="#"
+                class="hover:text-blue-900 font-semibold hover:border-b hover:transition-all duration-200"
+                >Contact</a
+              >
+            </li>
+            <li class="mb-4 text-white">
+              <a
+                href="#"
+                class="hover:text-blue-900 font-semibold hover:border-b hover:transition-all duration-200"
+                >login</a
+              >
+            </li>
+            <li class="mb-4 text-white">
+              <a
+                href="#"
+                class="btn hover:bg-white hover:text-blue-900 transition-all duration-200s"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script src="/scripts.js" type="module"></script>
+  </body>
 </html>
